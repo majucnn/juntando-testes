@@ -1,0 +1,52 @@
+@charset "UFT-8";
+
+:root{
+    --corFundo:#a3ceb3;
+    --corPrincipal:#6ca371;
+    --corSecundaria:#0d2214;
+}
+
+header{
+
+     color:var(--corSecundaria);
+        text-align: center;
+        font-size: 50px;
+        border-color: #0d0d21;
+        border-style: groove;
+        border-width: 10px;
+        width: 900px;
+        margin: auto;
+        background-image: url(gifs-de-livros-2.gif);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        padding: 140px;
+    }
+    body{
+        background-color: var(--corFundo);
+        
+    }
+    .categorias{
+        text-align: center;
+         margin: top 10px;
+        font-size: 40px;
+    }
+
+        .drama{
+            padding-top: 70px;
+            padding-top: 50px;
+            font-size: 40px;
+            text-align: center;
+            width: 230px;
+            height: 200px;
+            background-color: var(--corPrincipal);
+            border-color: #0d0d22;
+        border-style: groove;
+        border-width: 8px;
+        }
+        .drama:hover{
+            background:var(--corPrincipal);
+	color:var(--corFundo);
+	border-color: var(--corSecundaria);
+        }
