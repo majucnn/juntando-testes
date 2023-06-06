@@ -1,9 +1,10 @@
 @charset "UFT-8";
 
 :root{
-    --corFundo:#a3ceb3;
-    --corPrincipal:#6ca371;
-    --corSecundaria:#0d2214;
+    --corFundo:#0f1120;;
+    --corPrincipal:#122d45;
+    --corSecundaria:#658391;
+    --corTerciaria:#1fa0d9;
 }
 
 header{
@@ -11,7 +12,7 @@ header{
      color:var(--corSecundaria);
         text-align: center;
         font-size: 50px;
-        border-color: #0d0d21;
+        border-color: var(--corTerciaria);
         border-style: groove;
         border-width: 10px;
         width: 900px;
@@ -22,18 +23,27 @@ header{
         background-attachment: fixed;
         background-size: 100%;
         padding: 140px;
+        text-decoration: dotted;
+
     }
     body{
         background-color: var(--corFundo);
-        
     }
+    
+    .tudo{
+display: inline;
+    }
+    
     .categorias{
+        margin-top: 40px;
+        color: white;
         text-align: center;
          margin: top 10px;
         font-size: 40px;
     }
 
         .drama{
+            margin: auto;
             padding-top: 70px;
             padding-top: 50px;
             font-size: 40px;
@@ -41,7 +51,7 @@ header{
             width: 230px;
             height: 200px;
             background-color: var(--corPrincipal);
-            border-color: #0d0d22;
+            border-color: #1fa0d9;
         border-style: groove;
         border-width: 8px;
         }
@@ -49,4 +59,7 @@ header{
             background:var(--corPrincipal);
 	color:var(--corFundo);
 	border-color: var(--corSecundaria);
+        }
+        .autoajuda{
+            margin: auto;
         }
