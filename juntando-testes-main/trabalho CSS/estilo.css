@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;800&display=swap');
+
+
+:root{
+    --corFundo: #bc9dd6;
+    --corPrincipal: #8e77a0;
+    --corSecundaria: #4f5b93;
+    --corTerciaria:#1c152e ;
+}
+
+header{
+    background-image: url(teclado-mouse-e-gamepads-de-pc-antigos-em-fundo-roxo-jogos-retro-videogame-anos-80-vista-do-topo-postura-plana_175682-20343.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 120px;
+    background-color: var(--corPrincipal);
+    font-family: 'Playfair Display', serif;
+
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+    color:black;
+    margin: 0px;
+}
+
+div{
+    background-color: var(--corFundo);
+    box-shadow: #8e77a0;
+    border-radius: 20px;
+    margin: 0px -6px 5px -6px;
+    padding: 40px;
+    text-align: center;
+    border: 7px solid var(--corTerciaria);
+    text-indent: 20px;
+}
+
+footer{
+    background-color: var(--corPrincipal);
+    color:black;
+    padding: 80px;
+    margin: 0px -4px 5px -5px;
+    text-align: top;
+    border: 7px solid var(--corTerciaria); 
+    border-radius: 20px;
+}
+
+#intro-pag{
+    text-align: center;
+    text-indent: 20px;
+    h2{
+    font-size: 20px;
+    }
+}
+
+
+
+.titulo{
+    text-align: center;
+    font-size: 180px;
+    padding: 120px;
+   color:white;
+}

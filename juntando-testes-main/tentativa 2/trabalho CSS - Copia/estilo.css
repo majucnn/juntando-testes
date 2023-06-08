@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family= Playfair +Display:wght@500 & display=swap');
+
+:root{
+    --corFundo:#c0f0cb;
+    --corPrincipal:#0c1155be;
+    --corSecundaria:#263b5a;
+    --corComplementar:#16047e;
+}
+
+body{
+   background-color var:(corfundo);
+   margin:3px;
+   background-color: #263b5a;
+}
+ header{
+margin: 3px;
+flex: 1 1 100vw;
+background-color: #263b5a;
+ }
+ footer
+  { 
+    background-color: rgb(12, 12, 10) ; 
+    height: 100px;
+   margin-bottom: 30px;
+   text-align: center;     
+   color: black; 
+}   
+
+footer p{  
+    padding: 30px;
+    text-align: center;
+ }  
+ p {     color: rgb(5, 5, 5); }  
+
+ .conteudo{
+   text-align: center;
+   margin-top: 10px; 
+}  
+
+ .titulo-header 
+ {
+    text-align: center;
+    font-size: 43px;
+    padding: 70px; 
+}   
+
+.conteudo-filme {
+    border: 4px 
+
+    text-align: center;
+    background-color var:(--corSecundaria);
+    width: 48%;
+    display: inline-block;
+    height: 250px; 
+}  
+
+ .conteudo-filme p
+ {
+    color: #263b5a;
+    font-weight: 350;
+} 

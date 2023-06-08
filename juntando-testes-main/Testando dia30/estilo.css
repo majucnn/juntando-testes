@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&display=swap');
+
+:root{
+ --corfundo:#BDB76B;
+ --corsegunda:#97bd6b;
+ --corterceira:#6bbd7d;
+
+}
+header{
+    background-image: url(depositphotos_49813215-stock-photo-school-books.jpg);
+    background-position: center;
+    background-size:100%;
+    background-attachment: fixed;
+    text-align:center ;
+ font-family: 'Libre Baskerville', serif;
+ padding: 20%;
+}
+
+#livro{
+    font-size: 100px;
+background-color:var(--corfundo);
+
+}
+
